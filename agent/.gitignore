@@ -1,0 +1,17 @@
+# Node modules
+node_modules
+
+# Environment variables
+.env
+
+# Wallet data
+wallet_data.txt
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Lock files
+yarn.lock
+package-lock.json
