@@ -16,7 +16,8 @@ import { ChatOpenAI } from "@langchain/openai";
 import * as dotenv from "dotenv";
 import * as fs from "fs";
 import * as readline from "readline";
-import { upgradeByEthActionProvider } from "./actions/upgradeByETH";
+//import { upgradeByEthActionProvider } from "./actions/upgradeByETH";
+import { helloWorldActionProvider } from "./actions/helloworld/helloWorldActionProvider";
 
 dotenv.config();
 
@@ -123,7 +124,7 @@ async function initializeAgent() {
             "\n"
           ),
         }),
-        upgradeByEthActionProvider(),
+        helloWorldActionProvider(),
       ],
     });
 
